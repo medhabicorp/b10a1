@@ -77,6 +77,8 @@
 }
 .whySecContent{
   text-align: center;
+  margin-left: 48px;
+  margin-right: 48px;
 }
 .whyTitle{
   margin: 0;
@@ -141,10 +143,6 @@
   margin-bottom: 0;
 }
 
-.inspirationSec{
-  margin: 0 148px 60px;
-}
-
 .ytVideoDiv{
   padding: 32px;
   border-radius: 16px;
@@ -155,23 +153,26 @@
   border-radius: 16px;
 }
 
-.inspirationSec{
+.inspirationSec, .targetSection{
   text-align: center;
+  margin: 0 148px 80px;
 }
 
-.inspirationHeading{
+.inspirationHeading, .targetHeading{
   text-align: center;
   font-size: 32px;
   font-weight: 800;
+  margin: 24px 0;
 }
-.inspirationContent{
-  margin: 0 160px 48px;
+.inspirationContent, .targetContent{
+  margin: 0 160px 48px 160px;
   text-align: center;
 }
 
-.inspirationDescrip{
+.inspirationDescrip, .targetDescrip{
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
   opacity: 0.7;
 }
+
