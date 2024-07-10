@@ -1,6 +1,9 @@
+/* universal styles */
 * {
   font-family: "Azeret Mono", monospace;
 }
+
+/* Navbar Section */
 .titleName{
   font-size: 28px;
   font-weight: 800;
@@ -21,7 +24,8 @@
 .navButton:hover{
   background-color: rgb(179, 165, 186);
 }
-        
+
+/* Hero Section */
 .banner{
   background-image: url("../assets/Hero-bg.png");
   height: 652px;
@@ -77,6 +81,8 @@
   background: #46055e;
   cursor: pointer;
 }
+
+/* Why Web Developer section */
 .whySecContent{
   text-align: center;
   margin-left: 48px;
@@ -145,6 +151,7 @@
   margin-bottom: 0;
 }
 
+/* Inspiration Youtube Video */
 .ytVideoDiv{
   padding: 32px;
   border-radius: 16px;
@@ -155,6 +162,7 @@
   border-radius: 16px;
 }
 
+/* common styles for some sections */
 .inspirationSec, .targetSection, .supportSection{
   text-align: center;
   margin: 0 148px 80px;
@@ -185,7 +193,8 @@
   width: 364px;
   padding: 40px;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
   gap: 32px;
 }
 
@@ -221,6 +230,7 @@ opacity: 0.7;
   gap: 24px;
 }
 
+/* I need Support Section */
 .supportSection{
   display: flex;
   width: 1140px;
@@ -229,7 +239,7 @@ opacity: 0.7;
   align-items: center;
   gap: 32px;
   border-radius: 16px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../assets/handshake.jpg") lightgray 50% / cover no-repeat;;
+  background: linear-gradient(0deg, #00000033 0%, #00000033 100%), linear-gradient(0deg, #00000033 0%, #00000033 100%), linear-gradient(0deg, #00000033 0%, #00000033 100%), url("../assets/handshake.jpg") lightgray 50% / cover no-repeat;
 }
 
 .supportTitle{
@@ -238,6 +248,7 @@ opacity: 0.7;
   font-size: 32px;
   font-weight: 700;
   line-height: 36px;
+  margin-bottom: 16px;
 }
 
 .supportDescription{
@@ -246,8 +257,10 @@ opacity: 0.7;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  opacity: 0.7;
-  margin: 0 0 24 0;
+  opacity: 0.5;
+  margin-top: 0;
+  margin-bottom: 24px;
+
 }
 
 .contactForm{
@@ -263,7 +276,7 @@ opacity: 0.7;
   border: 1px solid rgba(13, 19, 33, 0.15);
 }
 .suggestButton{
-  padding: 18px 20px;
+  padding: 17px 20px;
   width: 120px;
   border-radius: 8px;
   color: #0D1321;
@@ -273,3 +286,24 @@ opacity: 0.7;
   line-height: normal;
 }
 
+/* footer Section */
+.footerSection{
+  padding: 32px 148px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.footerTitle{
+  font-size: 20px;
+}
+
+/* Jazak Allahu Khayran */
