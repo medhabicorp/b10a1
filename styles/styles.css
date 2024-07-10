@@ -1,0 +1,71 @@
+* {
+  font-family: "Azeret Mono", monospace;
+}
+
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 36px 150px 36px;
+}
+.navButton{
+  padding: 16px 24px;
+  border-radius: 8px;
+}
+
+.banner{
+  background-image: url("../assets/Hero-bg.png");
+  height: 652px;
+}
+
+.bannerContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px 221px;
+}
+
+.bannerHeadline{
+  color: #0D1321;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 68px;
+  margin-bottom: 0;
+}
+
+.bannerDescription{
+  color: #0D1321;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.contactButton{
+  display: flex;
+  padding: 21px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #0D1321;
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 24px;
+}
+.contactButton:hover{
+  background: #46055e;
+  cursor: pointer;
+}
+
+
+
