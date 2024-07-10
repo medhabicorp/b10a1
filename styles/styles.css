@@ -70,6 +70,7 @@
   font-weight: 600;
   line-height: normal;
   margin-top: 24px;
+  text-decoration: none;
 }
 .contactButton:hover{
   background: #46055e;
@@ -176,3 +177,45 @@
   opacity: 0.7;
 }
 
+.languageBox{
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  display: flex;
+  width: 364px;
+  padding: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.langTitle, .langDescrip, .langLearnMore{
+  margin: 0;
+}
+.langLearnMore{
+  color: #0D1321;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+.langTitle{
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+.langDescrip{
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+opacity: 0.7;
+}
+#langSec2{
+  background:#004CE80D;
+}
+#langSec3{
+  background: #FFDF000D;
+}
+
+.languageSection{
+  display: flex;
+  gap: 24px;
+}
