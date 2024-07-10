@@ -1,7 +1,10 @@
 * {
   font-family: "Azeret Mono", monospace;
 }
-
+.titleName{
+  font-size: 28px;
+  font-weight: 800;
+}
 .navBar{
   display: flex;
   justify-content: space-between;
@@ -11,8 +14,14 @@
 .navButton{
   padding: 16px 24px;
   border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
 }
-
+.navButton:hover{
+  background-color: rgb(179, 165, 186);
+}
+        
 .banner{
   background-image: url("../assets/Hero-bg.png");
   height: 652px;
@@ -66,6 +75,69 @@
   background: #46055e;
   cursor: pointer;
 }
+.whySecContent{
+  text-align: center;
+}
+.whyTitle{
+  margin: 0;
+}
+.whyWebDev{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 80px 97px;
+  margin: 60px 148px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
 
+.whyDiv{
+  display: flex;
+  padding: 48px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
 
+.whyTitle{
+  color: #0D1321;
+  font-size: 32px;
+  font-weight: 800;
+}
 
+.whyDiv1Content{
+  display: flex;
+  width: 477px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.whyLearnMore{
+  margin-top: 32px;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #0D1321;
+  border-radius: 4px;
+  opacity: 0.7;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.div1Title{
+  margin: 0;
+  color: rgba(13, 19, 33, 0.70);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.div1Descrip{
+  margin-bottom: 0;
+}
