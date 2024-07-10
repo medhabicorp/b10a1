@@ -86,7 +86,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
+  gap: 10px;
   padding: 80px 97px;
   margin: 60px 148px;
   border-radius: 16px;
@@ -98,8 +98,7 @@
   padding: 48px;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: center;
-  gap: 32px;
+  justify-content: space-between;
   align-self: stretch;
   border-radius: 16px;
   background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
