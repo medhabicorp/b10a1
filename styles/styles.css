@@ -140,3 +140,38 @@
 .div1Descrip{
   margin-bottom: 0;
 }
+
+.inspirationSec{
+  margin: 0 148px 60px;
+}
+
+.ytVideoDiv{
+  padding: 32px;
+  border-radius: 16px;
+  border: 1px solid rgba(13, 19, 33, 0.20);
+}
+
+.ytVideo{
+  border-radius: 16px;
+}
+
+.inspirationSec{
+  text-align: center;
+}
+
+.inspirationHeading{
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+}
+.inspirationContent{
+  margin: 0 160px 48px;
+  text-align: center;
+}
+
+.inspirationDescrip{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
