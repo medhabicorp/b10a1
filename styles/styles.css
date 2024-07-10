@@ -163,7 +163,7 @@
 }
 
 /* common styles for some sections */
-.inspirationSec, .targetSection, .supportSection{
+.inspirationSec, .targetSection{
   text-align: center;
   margin: 0 148px 80px;
 }
@@ -232,11 +232,13 @@ opacity: 0.7;
 
 /* I need Support Section */
 .supportSection{
+  text-align: center;
+  margin: 0 148px 80px;
   display: flex;
-  width: 1140px;
   padding: 64px 48px;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 32px;
   border-radius: 16px;
   background: linear-gradient(0deg, #00000033 0%, #00000033 100%), linear-gradient(0deg, #00000033 0%, #00000033 100%), linear-gradient(0deg, #00000033 0%, #00000033 100%), url("../assets/handshake.jpg") lightgray 50% / cover no-repeat;
