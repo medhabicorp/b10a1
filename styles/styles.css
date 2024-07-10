@@ -25,6 +25,7 @@
 .banner{
   background-image: url("../assets/Hero-bg.png");
   height: 652px;
+  padding-top: 26px;
 }
 
 .bannerContent{
@@ -154,7 +155,7 @@
   border-radius: 16px;
 }
 
-.inspirationSec, .targetSection{
+.inspirationSec, .targetSection, .supportSection{
   text-align: center;
   margin: 0 148px 80px;
 }
@@ -219,3 +220,56 @@ opacity: 0.7;
   display: flex;
   gap: 24px;
 }
+
+.supportSection{
+  display: flex;
+  width: 1140px;
+  padding: 64px 48px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  border-radius: 16px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url("../assets/handshake.jpg") lightgray 50% / cover no-repeat;;
+}
+
+.supportTitle{
+  color: #FFF;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.supportDescription{
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin: 0 0 24 0;
+}
+
+.contactForm{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.inputField{
+  width: 548px;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+}
+.suggestButton{
+  padding: 18px 20px;
+  width: 120px;
+  border-radius: 8px;
+  color: #0D1321;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+}
+
